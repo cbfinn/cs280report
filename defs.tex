@@ -1,0 +1,50 @@
+%% editing comment
+\newcommand{\cmt}[1]{{\footnotesize\textcolor{red}{#1}}}
+\newcommand{\note}[1]{\cmt{Note: #1}}
+\newcommand{\todo}[1]{\cmt{TO-DO: #1}}
+\newcommand{\nopphon}[1]{\cmt{Nopphon: #1}}
+\newcommand{\chelsea}[1]{\cmt{Chelsea: #1}}
+\newcommand{\justin}[1]{\cmt{Justin: #1}}
+
+%% ignore text
+\long\def\ignorethis#1{}
+
+%% abbreviations
+\newcommand{\etal}{{et~al.}\ }
+\newcommand{\eg}{e.g.\ }
+\newcommand{\ie}{i.e.\ }
+\newcommand{\nth}{\text{th}}
+\newcommand{\pr}{^\prime}
+\newcommand{\tr}{^\mathrm{T}}
+\newcommand{\inv}{^{-1}}
+\newcommand{\pinv}{^{\dagger}}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\gauss}{\mathcal{N}}
+\newcommand{\norm}[1]{\left|#1\right|}
+\newcommand{\trace}{\text{tr}}
+
+%% reference shortcuts
+\newcommand{\figtodo}[1]{\framebox[0.8\columnwidth]{\rule{0pt}{1in}#1}}
+\newcommand{\figref}[1]{Figure~\ref{fig:#1}}
+%\renewcommand{\eqref}[1]{Equation~(\ref{eq:#1})}
+\newcommand{\secref}[1]{Section~\ref{sec:#1}}
+
+%% section definitions.
+\newcommand{\secpaperlin}{5.1}
+\newcommand{\eqnpapergradmul}{3}
+\newcommand{\eqnpapergrads}{4}
+\newcommand{\applinhess}{A}
+\newcommand{\applqr}{B}
+\newcommand{\appfastgrad}{C}
+
+%% general math definitions
+\newcommand{\vnorm}[1]{\|#1\|}
+\newcommand{\lscnorm}[1]{\ell_{12}(#1)}
+\newcommand{\costnorm}{r_\ell}
+\newcommand{\channel}{c}
+\newcommand{\softmax}{\mathbf{s}}
+\newcommand{\softmaxpix}{s_{cij}}
+\newcommand{\responsemap}{\mathbf{a}}
+\newcommand{\responsepix}{a_{cij}}
+\newcommand{\responsepixprime}{a_{ci'j'}}
+
